@@ -28,7 +28,7 @@ describe("Sign up form", () => {
     cy.contains("Felformatterad e-postadress!");
     cy.get("form");
     cy.get('input[name="username"]').type("CoolUser1337");
-    cy.get('input[name="email"]').type("email@domain."); // utan .com .se fungerar det lokalt
+    cy.get('input[name="email"]').type("email@domain.");
     cy.get("form").submit();
     cy.contains("Felformatterad e-postadress!");
     cy.get("form");
