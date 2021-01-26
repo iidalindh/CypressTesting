@@ -1,7 +1,6 @@
 {
   "name": "testning",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "cypress open"
@@ -11,5 +10,15 @@
   "devDependencies": {
     "cypress": "^6.3.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iidalindh/CypressTesting.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/iidalindh/CypressTesting/issues"
+  },
+  "homepage": "https://github.com/iidalindh/CypressTesting#readme",
+  "description": ""
 }
